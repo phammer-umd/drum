@@ -15,5 +15,21 @@
  * Prevent the navbar from covering up the UMD header toggle arrow (#umh-toggle-arrow)
  */
 .navbar-static-top {
-     z-index: auto;
+    z-index: auto;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+header .navbar-brand img {
+    height: 61px;
+}
+
+header .navbar-default {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    height: 61px;
 }

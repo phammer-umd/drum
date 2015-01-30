@@ -318,8 +318,12 @@
                             <span class="icon-bar"></span>
                         </button>
 
+                        <a href="http://www.lib.umd.edu" class="navbar-brand">
+                           <img alt="University of Maryland Libraries" src="http://www.lib.umd.edu/images/wrapper/liblogo.png" />
+                        </a>
+
                         <a href="{$context-path}/" class="navbar-brand">
-                            <img src="{$theme-path}/images/DSpace-logo-line.svg" />
+                            <img src="{concat($theme-path, 'images/drum-logo.png')}" />
                         </a>
 
 
